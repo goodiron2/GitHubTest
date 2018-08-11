@@ -11,6 +11,7 @@ namespace GitHubTest.Models
         // GET: Test
         public ActionResult Index()
         {
+            var test = 1;
             return View();
         }
     }
